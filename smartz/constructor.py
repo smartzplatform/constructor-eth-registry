@@ -148,7 +148,7 @@ class Constructor(ConstructorInstance):
                     "type": "string",
                     "minLength": 3,
                     "maxLength": 1000,
-                    "pattern": "^[a-zA-Z0-9,\.\?\$\:\& ]+$"
+                    "pattern": "^[a-zA-Z0-9,\.\?\$\:\&\(\) ]+$"
                 },
                 "record_name": {
                     "title": "Record name",
@@ -192,8 +192,8 @@ class Constructor(ConstructorInstance):
                                             "title": "Text field description",
                                             "type": "string",
                                             "minLength": 3,
-                                            "maxLength": 30,
-                                            "pattern": "^[a-zA-Z0-9,\.\?\$\:\& ]+$"
+                                            "maxLength": 1000,
+                                            "pattern": "^[\(\)a-zA-Z0-9,\.\?\$\:\& ]+$"
                                         },
                                     },
                                     "required": [
@@ -239,8 +239,8 @@ class Constructor(ConstructorInstance):
                                             "title": "Text hash field description",
                                             "type": "string",
                                             "minLength": 3,
-                                            "maxLength": 30,
-                                            "pattern": "^[a-zA-Z0-9,\.\?\$\:\& ]+$"
+                                            "maxLength": 1000,
+                                            "pattern": "^[\(\)a-zA-Z0-9,\.\?\$\:\& ]+$"
                                         },
                                     },
                                     "required": [
@@ -286,8 +286,8 @@ class Constructor(ConstructorInstance):
                                             "title": "Url field description",
                                             "type": "string",
                                             "minLength": 3,
-                                            "maxLength": 30,
-                                            "pattern": "^[a-zA-Z0-9,\.\?\$\:\& ]+$"
+                                            "maxLength": 1000,
+                                            "pattern": "^[\(\)a-zA-Z0-9,\.\?\$\:\& ]+$"
                                         },
                                     },
                                     "required": [
@@ -333,8 +333,8 @@ class Constructor(ConstructorInstance):
                                             "title": "File hash field description",
                                             "type": "string",
                                             "minLength": 3,
-                                            "maxLength": 30,
-                                            "pattern": "^[a-zA-Z0-9,\.\?\$\:\& ]+$"
+                                            "maxLength": 1000,
+                                            "pattern": "^[\(\)a-zA-Z0-9,\.\?\$\:\& ]+$"
                                         },
                                     },
                                     "required": [
